@@ -1,0 +1,13 @@
+import React from 'react';
+
+const NoticeShow = ({match}) => {
+    return ( 
+        <div>
+            <li>
+                id: {match.params.bno}
+            </li>
+        
+        </div>
+    );
+}
+export default NoticeShow;
